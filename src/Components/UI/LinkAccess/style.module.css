@@ -1,0 +1,25 @@
+.link {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    text-decoration: none;
+    color: var(--blue-light);
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.textLink {
+    font-size: 1.5em;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 500;
+}
+
+.rodapeLink {
+    font-size: 0.9em;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 300;
+}

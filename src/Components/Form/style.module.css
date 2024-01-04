@@ -1,0 +1,93 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.input {
+  border: none;
+  outline: none;
+  padding: 0.5em;
+  border-radius: 0.4em;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: normal;
+  font-style: normal;
+  font-family: var(--font-default);
+  background-color: var(--blue-dark);
+  color: var(--light);
+}
+
+.input::placeholder {
+  color: var(--blue-light);
+}
+
+.input:focus{
+  background-color: var(--dark-primary);
+}
+
+.button {
+  padding: 0.8em 1.6em;
+  font-size: 1.05em;
+  font-weight: 600;
+  font-style: normal;
+  line-height: normal;
+  align-self: flex-start;
+  border: none;
+  border-radius: 0.4em;
+  background-color: var(--blue-dark);
+  color: var(--light);
+  cursor: pointer;
+  transition: ease 0.2s;
+}
+
+.button:hover {
+  transition: ease 0.2s;
+  background-color: var(--blue-light);
+  color: var(--dark-secundary);
+  transform: scale(0.9);
+}
+
+@media (max-width: 1023px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  
+  .input {
+    border: none;
+    outline: none;
+    padding: 0.8em;
+    border-radius: 0.4em;
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: normal;
+    font-style: normal;
+    font-family: var(--font-default);
+    background-color: var(--blue-dark);
+    color: var(--light);
+  }
+  
+  .button {
+    width: 100%;
+    padding: 1em;
+    font-size: 1.2em;
+    font-weight: 600;
+    font-style: normal;
+    line-height: normal;
+    align-self: flex-start;
+    border: none;
+    border-radius: 0.4em;
+    background-color: var(--blue-dark);
+    color: var(--light);
+    cursor: pointer;
+    transition: ease 0.2s;
+  }
+}

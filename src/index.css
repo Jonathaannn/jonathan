@@ -1,13 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Zilla+Slab:wght@300;400;500;600&display=swap');
+
+:root {
+  --dark-primary: #1F2126;
+  --dark-secundary: #2D3240;
+  --blue-dark: #4F5B73;
+  --blue-light: #7A9FBF;
+  --light: #BACBD9;
+  --font-title: 'Zilla Slab', serif;
+  --font-default: 'Inter', sans-serif;
+}
+
+body::-webkit-scrollbar {
+  width: 0.75em;
+}
+
+body::-webkit-scrollbar-track {
+  background: none;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--blue-light);
+  border: 3px solid var(--blue-dark);
+  border-radius: 0.375em;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-default), -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  background-color: var(--dark-secundary);
 }

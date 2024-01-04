@@ -1,0 +1,28 @@
+.title {
+    color: var(--blue-light);
+    font-style: normal;
+    line-height: normal;
+    font-weight: 600;
+    font-family: var(--font-title);
+    font-size: 2.6em;
+    margin-block-start: 0;
+}
+
+.subTitle {
+    color: var(--blue-light);
+    font-style: normal;
+    line-height: normal;
+    font-weight: 500;
+    font-size: 1.3em;
+    font-family: var(--font-default);
+}
+
+.paragraph {
+    color: var(--light);
+    text-align: justify;
+    font-style: normal;
+    line-height: 1.5em;
+    font-weight: 400;
+    font-size: 1.01em;
+    font-family: var(--font-default);
+}
